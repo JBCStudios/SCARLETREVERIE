@@ -295,11 +295,23 @@ export default function Home() {
           animate={{ scale: 1 }}
           transition={{ duration: 1.5 }}
         >
+          {/* Desktop Hero Image */}
           <Image
             src="/images/hero.jpg"
             alt="Scarlet Reverie band"
             fill
-            className="object-cover object-center"
+            className="hidden md:block object-cover object-center"
+            priority
+            quality={75}
+            loading="eager"
+            sizes="100vw"
+          />
+          {/* Mobile Hero Image */}
+          <Image
+            src="/images/hero-mobile.jpg"
+            alt="Scarlet Reverie band"
+            fill
+            className="block md:hidden object-cover object-center"
             priority
             quality={75}
             loading="eager"
