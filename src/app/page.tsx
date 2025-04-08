@@ -340,7 +340,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.8 }}
           >
-            A female-fronted progressive rock band from Toronto, blending strength and softness with ferocity and passion.
+            Female-fronted progressive rock
           </motion.p>
           <motion.button
             whileHover={{ scale: 1.1 }}
@@ -371,10 +371,10 @@ export default function Home() {
             <div>
               <h2 className={`heading ${gradientTextStyles}`}>About Us</h2>
               <p className="text-gray-300 mb-6">
-                Scarlet Reverie is a female-fronted progressive rock band with nostalgic embellishments of the 90s era. Based in Toronto, their sound emotes both strength and softness yet is ever present with ferocity and passion.
+                Based in Toronto, Scarlet Reverie brings nostalgic embellishments of the 90s era to their music. Their sound emotes both strength and softness yet is ever present with ferocity and passion.
               </p>
               <p className="text-gray-300">
-                Pushing the envelope when it comes to their writing, within their music you'll find the spirit of the underdog, resonating with those who dare to dream differently.
+                When it comes to their writing, they like to push the envelope and within it you'll find the spirit of the underdog.
               </p>
             </div>
             <motion.div
@@ -466,9 +466,6 @@ export default function Home() {
             className="text-center mb-12"
           >
             <h2 className={`heading ${gradientTextStyles}`}>Latest Releases</h2>
-            <p className="subheading text-gray-300">
-              Experience our unique blend of progressive rock and 90s nostalgia
-            </p>
           </motion.div>
 
           <motion.div
