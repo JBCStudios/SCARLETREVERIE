@@ -641,8 +641,8 @@ export default function Home() {
             </motion.div>
           </div>
 
-          {/* Download Button */}
-          <motion.div
+          {/* Download Button - Temporarily Disabled */}
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
@@ -664,7 +664,7 @@ export default function Home() {
             <p className="text-sm text-gray-400 mt-4">
               Includes high-resolution photos, band bio, and technical requirements
             </p>
-          </motion.div>
+          </motion.div> */}
         </div>
       </section>
 
