@@ -338,8 +338,11 @@ export default function Home() {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
             className="bg-scarlet text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-scarlet/90 transition-colors relative overflow-hidden group"
+            onClick={() => {
+              document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+            }}
           >
-            <span className="relative z-10">Listen Now</span>
+            <span className="relative z-10">Learn More</span>
             <motion.div
               className="absolute inset-0 bg-white/20"
               initial={{ x: "-100%" }}
